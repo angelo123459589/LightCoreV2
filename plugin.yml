@@ -1,0 +1,52 @@
+name: LightCore
+main: Light\LightCore\Main
+api: 4.0.0
+depend:
+ - FormAPI
+version: 0.1
+author: LightDemon
+
+commands:
+ ajuda:
+  description: "Use para abrir o menu de ajuda."
+  permission: ajuda.use
+ equipe:
+  description: "Use para ver a equipe do servidor."
+  permission: equipe.use
+ novidades:
+  description: "Use para ver as novidades do servidor."
+  permission: "novidades.use"
+ vips:
+  description: "Use para ver os vips existentes no servidor."
+  permission: vips.use
+ requisitos:
+  description: "Use para ver os requisitos para ser Yt ou parceiro(a) do servidor."
+  permission: requisitos.use
+ ip:
+  description: "Use para ver o ip do servidor."
+  permission: ip.use
+ discord:
+  description: "Use para obter o link do discord do servidor."
+  permission: discord.use
+ site:
+  description: "Use para obter o link do site do servidor."
+  permission: site.use
+permissions: 
+   ajuda.use:
+    default: true
+   equipe.use:
+    default: true
+   novidades.use:
+    default: true
+   vips.use:
+    default: true
+   requisitos.use:
+    default: true
+   ip.use:
+    default: true
+   discord.use:
+    default: true
+   site.use:
+    default: true
+
+# - Créditos ao LightDemon#5865, criador do plugin. Não venda este plugin!
